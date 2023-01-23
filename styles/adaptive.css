@@ -1,0 +1,662 @@
+@media screen and (max-width: 1500px) {
+    .top-outside {
+        right: calc((100% - 1200px) / 2);
+    }
+}
+
+@media screen and (max-width: 1290px) {
+    .container {
+        max-width: 974px;
+    }
+
+    section.paintings .container {
+        max-width: 994px;
+    }
+
+    .header .logo {
+        width: 60px;
+    }
+
+    .artist-text {
+        top: -265px;
+        right: 33px;
+    }
+
+    .artist-name {
+        font-size: 96px;
+    }
+
+    .artist-info {
+        margin-top: -15px;
+        margin-right: -10px;
+    }
+
+
+    .about-me-title {
+        margin-left: 30px;
+    }
+
+    .about-me-info {
+        width: 356px;
+        margin-left: 30px;
+    }
+
+    .about-me-image {
+        width: 450px;
+        margin-left: 137px;
+    }
+
+    .last-info {
+        max-width: 360px;
+        margin-left: 74px;
+    }
+
+    .last-part {
+        margin-bottom: 100px;
+    }
+
+    .last-image {
+        margin-left: 133px;
+    }
+
+    .contacts-items {
+        margin-top: 50px;
+        width: 558px;
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+        column-gap: 48px;
+        row-gap: 30px;
+    }
+
+    .contacts-item {
+        margin-right: 0;
+    }
+
+    .contacts-item:last-of-type {
+        grid-column: 1 / 3;
+        justify-self: center;
+    }
+
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .top-outside {
+        right: calc((100% - 974px) / 2);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    section.about-me {
+        padding-top: 100px;
+    }
+
+    section.paintings {
+        padding-top: 192px;
+    }
+
+    .painting-item {
+        max-width: 318px;
+    }
+
+    .shop {
+        padding-top: 100px;
+    }
+
+    section.contacts {
+        padding: 100px 0;
+    }
+
+    .header-menu-link, .header-menu-link:active, .header-menu-link:hover, .header-menu-link:link, .header-menu-link:visited, .header-menu-link:focus,
+    .about-me-less, .about-me-less:active, .about-me-less:hover, .about-me-less:link, .about-me-less:visited, .about-me-less:focus,
+    .footer-menu-link, .footer-menu-link:active, .footer-menu-link:hover, .footer-menu-link:link, .footer-menu-link:visited, .footer-menu-link:focus,
+    .button, .button:active, .button:hover, .button:link, .button:visited, .button:focus,
+    .contacts-link, .contacts-link:active, .contacts-link:hover, .contacts-link:link, .contacts-link:visited, .contacts-link:focus,
+    .footer-link, .footer-link:active, .footer-link:hover, .footer-link:link, .footer-link:visited, .footer-link:focus,
+    .top-outside, .top-outside:active, .top-outside:hover, .top-outside:link, .top-outside:visited, .top-outside:focus {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    .container {
+        max-width: 738px;
+    }
+
+    section.paintings .container {
+        max-width: 758px;
+    }
+
+    .artist-text {
+        right: -85px;
+    }
+
+    .about-me-title {
+        margin-left: 0;
+    }
+
+    .about-me-info {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .about-me-image {
+        width: 393px;
+        margin-left: 45px;
+    }
+
+    .painting-item:not(:last-of-type) {
+        margin-bottom: 5px;
+    }
+
+    .painting-item-title {
+        font-size: 16px;
+        margin: 15px 0 5px;
+    }
+
+    .painting-item-info {
+        font-size: 15px;
+    }
+
+    .last-info {
+        margin-left: 0;
+    }
+
+    .last-image {
+        margin-left: 70px;
+    }
+
+    .footer .logo {
+        width: 73px;
+    }
+
+    .top-outside {
+        right: calc((100% - 738px) / 2);
+        bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .artist-bg-image {
+        height: 300px;
+    }
+
+    .artist-image {
+        width: 600px;
+        top: -50px;
+        left: calc(50vw - 300px);
+    }
+
+    .artist-text {
+        top: -262px;
+        right: 100px;
+    }
+
+    .quote {
+        margin-top: 320px;
+    }
+}
+
+@media screen and (max-width: 856px) {
+    .popup-card {
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 90px;
+        left: 0;
+        background: linear-gradient(to bottom, #FFF 278px, rgba(0, 0, 0, .5) 278px);;
+        z-index: 999999;
+    }
+
+    .header-menu-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        position: absolute;
+        top: 0;
+        left: calc(50vw - 70px);
+    }
+
+    .header-menu-item:not(:last-of-type) {
+        margin-right: 0;
+    }
+
+    .header-menu-item:not(:last-of-type) {
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .header-menu-item:last-of-type {
+        margin-bottom: 55px;
+        margin-right: 0;
+    }
+
+    .header-menu.open {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-menu .close {
+        display: block;
+        position: absolute;
+        top: 13px;
+        left: 15px;
+    }
+
+    .exit {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header-link .button {
+        padding: 15px 25px;
+    }
+
+    .artist-name {
+        font-size: 80px;
+    }
+
+    .artist-info {
+        font-size: 14px;
+    }
+
+    .artist-text {
+        right: 138px;
+        top: -210px;
+    }
+
+    .quote {
+        max-width: 560px;
+        margin-top: 270px;
+    }
+
+    .quote-text {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .shop-bg {
+        padding: 40px 0;
+    }
+
+    .shop-info {
+        padding: 25px;
+        width: 493px;
+    }
+
+    .shop-title {
+        font-size: 40px;
+    }
+
+    .shop-description {
+        font-size: 15px;
+    }
+
+    .last-part {
+        justify-content: center;
+    }
+
+    .last-image {
+        margin-left: 20px;
+        width: 200px;
+    }
+
+    .footer .container {
+        row-gap: 50px;
+    }
+
+    .footer-menu {
+        grid-column: 2 / 3;
+        justify-self: center;
+    }
+
+    .footer-menu-list {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .footer .logo {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .design-author {
+        grid-row: 2 / 3;
+        grid-column: 1 / 4;
+        justify-self: center;
+        font-size: 13px;
+        width: 216px;
+    }
+
+    .popup-card {
+        padding: 20px;
+    }
+
+    .popup-title {
+        font-size: 16px;
+    }
+
+    .popup-size {
+        font-size: 15px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .container {
+        max-width: 560px;
+    }
+
+    section.paintings .container {
+        max-width: 580px;
+    }
+
+    .artist-bg-image {
+        height: 230px;
+    }
+
+    .artist-image {
+        top: -35px;
+        left: calc(50vw - 225px);
+        width: 450px;
+    }
+
+    .artist-text {
+        right: 70px;
+    }
+
+    .about-me .container {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 50px;
+    }
+
+    .about-me-title {
+        grid-row: 1 / 2;
+        grid-column: 1 / 1;
+    }
+
+    .about-me-image {
+        grid-row: 2 / 3;
+        grid-column: 1 / 1;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .about-me-info {
+        grid-row: 3 / 4;
+        grid-column: 1 / 1;
+        width: 100%;
+    }
+
+    section.paintings {
+        padding-top: 100px;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    .gallery-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .more-paintings {
+        display: block;
+    }
+
+    .paintings-description {
+        margin-bottom: 36px;
+        max-width: 450px;
+    }
+
+    .painting-item {
+        max-width: 280px;
+    }
+
+    .last-image {
+        margin-left: 0;
+    }
+
+    .top-outside {
+        right: calc((100% - 560px) / 2);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header .logo {
+        width: 40px;
+    }
+
+    .header-menu {
+        top: 70px;
+    }
+
+    .artist {
+        padding-top: 51px;
+    }
+
+    .artist-bg-image {
+        height: 125px;
+    }
+
+    .artist-image {
+        top: -31px;
+        left: calc(50vw - 140px);
+        width: 280px;
+    }
+
+    .artist-name {
+        font-size: 48px;
+    }
+
+    .artist-text {
+        top: -124px;
+        right: 45px;
+    }
+
+    .artist-info {
+        margin-right: -25px;
+    }
+
+    .quote {
+        margin-top: 163px;
+        max-width: 313px;
+    }
+
+    .quote-text {
+        font-size: 26px;
+        line-height: 33px;
+    }
+
+    .container {
+        max-width: 345px;
+    }
+
+    section.paintings .container {
+        max-width: 365px;
+    }
+
+    .painting-item {
+        max-width: 183px;
+    }
+
+    .about-me-title, .paintings-title, .last-title, .contacts-title {
+        font-size: 30px;
+    }
+
+    section.about-me {
+        padding-top: 70px;
+    }
+
+    .about-me-info {
+        padding: 0 10px;
+    }
+
+    .about-me .container {
+        row-gap: 40px;
+    }
+
+    .shop-info {
+        width: 323px;
+    }
+
+    .shop-title {
+        font-size: 26px;
+    }
+
+    .shop-description {
+        margin: 25px 0 40px;
+    }
+
+    .shop-text {
+        margin-top: 40px;
+    }
+
+    section.contacts {
+        padding-bottom: 90px;
+    }
+
+    .last-part {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 10px;
+    }
+
+    .last-info {
+        padding: 0;
+        max-width: 300px;
+    }
+
+    .last-image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .contacts-part {
+        padding: 0 10px;
+        text-align: left;
+    }
+
+    .contacts-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 20px;
+        margin: 40px 0 0;
+        width: 290px;
+    }
+
+    .contacts-item {
+        margin-right: 0;
+    }
+
+    .contacts-item:last-of-type {
+        grid-column: 1 / 1;
+        justify-self: flex-start;
+    }
+
+    .contacts-link-text {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 35px 15px 41px;
+    }
+
+    .design-author {
+        justify-self: flex-start;
+    }
+
+    .top-outside {
+        right: calc((100% - 345px) / 2);
+    }
+
+    .painting-item-popup {
+        padding: 30px 16px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .popup-card {
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 0;
+        order: 3;
+        position: relative;
+        right: auto;
+    }
+
+    .popup-image {
+        order: 2;
+    }
+
+    .popup-exit {
+        order: 1;
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .container {
+        max-width: 300px;
+    }
+
+    .artist-text {
+        right: 30px;
+    }
+
+    .artist-name {
+        font-size: 45px;
+    }
+
+    .quote-text {
+        font-size: 24px;
+    }
+
+    .quote-author {
+        font-size: 12px;
+    }
+
+    .paintings-description {
+        max-width: 300px;
+    }
+
+    .painting-item {
+        /*padding: 5px 10px;*/
+    }
+
+    .painting-item-title {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .painting-item-info {
+        font-size: 13px;
+    }
+
+    .shop-info {
+        width: 300px;
+    }
+
+    .last-part {
+        padding: 0;
+    }
+
+    .top-outside {
+        right: calc((100% - 300px) / 2);
+    }
+}
